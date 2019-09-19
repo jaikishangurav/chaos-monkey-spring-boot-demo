@@ -51,6 +51,10 @@
             <artifactId>shared</artifactId>
             <version>${parent.version}</version>
         </dependency>
+        <dependency>
+			<groupId>io.dekorate</groupId>
+			<artifactId>kubernetes-spring-starter</artifactId>
+		</dependency>        
     </dependencies>
     <build>
         <plugins>

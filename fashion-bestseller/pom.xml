@@ -13,6 +13,10 @@
     <name>fashion</name>
 
     <dependencies>
+    	<dependency>
+    		<groupId>org.springframework.cloud</groupId>
+    		<artifactId>spring-cloud-starter-kubernetes</artifactId>
+    	</dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>chaos-monkey-spring-boot</artifactId>
@@ -48,8 +52,12 @@
             <artifactId>hot-deals</artifactId>
             <version>${parent.version}</version>
         </dependency>
+        <dependency>
+			<groupId>io.dekorate</groupId>
+			<artifactId>kubernetes-spring-starter</artifactId>
+		</dependency>
     </dependencies>
-    <build>
+    <build> 
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
